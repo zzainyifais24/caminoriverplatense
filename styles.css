@@ -1,0 +1,131 @@
+@font-face{
+		font-family:"Evogria";
+		src :url("fonts/Evogria.otf");
+}
+/*---------------------------------------------------------------------*/
+body{
+		background-image: url("img/fondo.gif");
+		background-color: red;
+}
+/*---------------------------------------------------------------------*/
+h1{
+		color:	white;
+
+		font-family:	"Evogria";
+		font-size:	36px;
+		
+		text-shadow: 6px 6px 6px black;
+		text-align:	center;
+}
+/*---------------------------------------------------------------------*/
+h2{
+		font-family:	"Evogria";
+		font-size:	24px;
+		
+		color: white;
+		
+		text-shadow: 6px 6px 6px black;
+		text-align: center;
+		
+		margin-bottom: 2%;
+		margin-top: 1%;
+}
+/*---------------------------------------------------------------------*/
+p{
+		color: white;
+		
+		text-align: justify;
+		
+		font-family:	"Tahoma";
+		font-size: 16px;
+		text-shadow: 3px 3px 3px black;
+		
+		line-height: 25px;
+		
+		margin-top: -1%;
+		margin-left:5%;
+		margin-right:5%;
+}
+/*---------------------------------------------------------------------*/
+td{
+		border-style: solid;
+		border-width: 2px;
+		border-color: white;
+		
+		text-align:	center;
+		font-family:	"Calibri";
+}
+/*---------------------------------------------------------------------*/
+tr{	
+		color: white;
+		
+		text-shadow: 3px 2px 3px black;
+}
+/*---------------------------------------------------------------------*/
+a:link{
+		color: white;
+		
+		font-weight: bold;
+		
+		background-color:	red;
+		
+		text-decoration: none;
+		
+		margin-left: 8%;
+		
+		border-color: white;
+		border-width: 30px;
+}
+
+a:visited{
+		color: white;
+	
+		font-weight: bold;
+	
+		background-color:#760000;
+	
+		text-decoration: none;
+}
+
+a:hover{
+	color: #c1c1c1;
+	box-shadow: 2px 2px 2px gray;
+}
+/*---------------------------------------------------------------------*/
+table{
+    	width: 100px;
+	 	margin: 0 auto;	
+}
+/*---------------------------------------------------------------------*/
+img{
+	box-shadow: 2px 2px 2px #00000059;
+}
+/*---------------------------------------------------------------------*/
+.center{
+
+		display:block;
+		text-align:center;
+}
+/*---------------------------------------------------------------------*/
+.img{
+		display:block;
+
+		margin:auto;
+
+		border-style:	double;
+		border-width: 2px;
+		border-radius: 20px;	
+		border-color: gray;
+}
+/*---------------------------------------------------------------------*/
+.tabla{
+		display:flex;
+		margin-left: 3%;
+}
+/*---------------------------------------------------------------------*/
+.galeria:link, .galeria:visited, .galeria:hover{
+	background-color: transparent;
+	border-style: none;
+	box-shadow: 2px 2px 2px #0000002e;
+	}
+/*---------------------------------------------------------------------*/
